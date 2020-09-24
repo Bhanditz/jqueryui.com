@@ -1,0 +1,99 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - download.jqueryui.com > bower > bower-registry-client > request > hawk:
+        patched: '2020-09-24T04:13:18.774Z'
+    - download.jqueryui.com > bower > request > hawk:
+        patched: '2020-09-24T04:13:18.774Z'
+    - download.jqueryui.com > bower > insight > request > hawk:
+        patched: '2020-09-24T04:13:18.774Z'
+  'npm:http-signature:20150122':
+    - download.jqueryui.com > bower > request > http-signature:
+        patched: '2020-09-24T04:13:18.774Z'
+    - download.jqueryui.com > bower > bower-registry-client > request > http-signature:
+        patched: '2020-09-24T04:13:18.774Z'
+    - download.jqueryui.com > bower > insight > request > http-signature:
+        patched: '2020-09-24T04:13:18.774Z'
+  'npm:marked:20150520':
+    - grunt-jquery-content > marked:
+        patched: '2020-09-24T04:13:18.774Z'
+  'npm:mime:20170907':
+    - download.jqueryui.com > bower > request > mime:
+        patched: '2020-09-24T04:13:18.774Z'
+    - download.jqueryui.com > winston > request > mime:
+        patched: '2020-09-24T04:13:18.774Z'
+    - download.jqueryui.com > bower > request > form-data > mime:
+        patched: '2020-09-24T04:13:18.774Z'
+    - download.jqueryui.com > bower > insight > request > mime:
+        patched: '2020-09-24T04:13:18.774Z'
+    - download.jqueryui.com > winston > request > form-data > mime:
+        patched: '2020-09-24T04:13:18.774Z'
+    - download.jqueryui.com > bower > insight > request > form-data > mime:
+        patched: '2020-09-24T04:13:18.774Z'
+  'npm:minimatch:20160620':
+    - download.jqueryui.com > archiver > glob > minimatch:
+        patched: '2020-09-24T04:13:18.774Z'
+    - download.jqueryui.com > node-packager > archiver > glob > minimatch:
+        patched: '2020-09-24T04:13:18.774Z'
+    - download.jqueryui.com > builder-jquery-css > builder-amd-css > glob > minimatch:
+        patched: '2020-09-24T04:13:18.774Z'
+    - download.jqueryui.com > glob > minimatch:
+        patched: '2020-09-24T04:13:18.774Z'
+    - download.jqueryui.com > bower > fstream-ignore > minimatch:
+        patched: '2020-09-24T04:13:18.774Z'
+    - download.jqueryui.com > grunt > findup-sync > glob > minimatch:
+        patched: '2020-09-24T04:13:18.774Z'
+    - download.jqueryui.com > bower > glob > minimatch:
+        patched: '2020-09-24T04:13:18.774Z'
+    - grunt-jquery-content > grunt-wordpress > gilded-wordpress > glob > minimatch:
+        patched: '2020-09-24T04:13:18.774Z'
+    - download.jqueryui.com > grunt > minimatch:
+        patched: '2020-09-24T04:13:18.774Z'
+    - download.jqueryui.com > grunt > glob > minimatch:
+        patched: '2020-09-24T04:13:18.774Z'
+    - download.jqueryui.com > grunt-contrib-jshint > jshint > minimatch:
+        patched: '2020-09-24T04:13:18.774Z'
+  'npm:qs:20140806-1':
+    - download.jqueryui.com > bower > request > qs:
+        patched: '2020-09-24T04:13:18.774Z'
+    - download.jqueryui.com > bower > insight > request > qs:
+        patched: '2020-09-24T04:13:18.774Z'
+    - download.jqueryui.com > winston > request > qs:
+        patched: '2020-09-24T04:13:18.774Z'
+  'npm:request:20160119':
+    - download.jqueryui.com > bower > bower-registry-client > request:
+        patched: '2020-09-24T04:13:18.774Z'
+    - download.jqueryui.com > bower > insight > request:
+        patched: '2020-09-24T04:13:18.774Z'
+    - download.jqueryui.com > bower > request:
+        patched: '2020-09-24T04:13:18.774Z'
+    - download.jqueryui.com > winston > request:
+        patched: '2020-09-24T04:13:18.774Z'
+  'npm:semver:20150403':
+    - download.jqueryui.com > bower > semver:
+        patched: '2020-09-24T04:13:18.774Z'
+  'npm:shell-quote:20160621':
+    - download.jqueryui.com > bower > shell-quote:
+        patched: '2020-09-24T04:13:18.774Z'
+  'npm:tar:20151103':
+    - download.jqueryui.com > bower > tar:
+        patched: '2020-09-24T04:13:18.774Z'
+  'npm:tunnel-agent:20170305':
+    - download.jqueryui.com > bower > request > tunnel-agent:
+        patched: '2020-09-24T04:13:18.774Z'
+    - download.jqueryui.com > bower > bower-registry-client > request > tunnel-agent:
+        patched: '2020-09-24T04:13:18.774Z'
+  'npm:uglify-js:20151024':
+    - download.jqueryui.com > handlebars > uglify-js:
+        patched: '2020-09-24T04:13:18.774Z'
+    - download.jqueryui.com > bower > handlebars > uglify-js:
+        patched: '2020-09-24T04:13:18.774Z'
+    - download.jqueryui.com > grunt-contrib-handlebars > handlebars > uglify-js:
+        patched: '2020-09-24T04:13:18.774Z'
+    - download.jqueryui.com > uglify-js:
+        patched: '2020-09-24T04:13:18.774Z'
+    - download.jqueryui.com > grunt-contrib-uglify > uglify-js:
+        patched: '2020-09-24T04:13:18.774Z'
